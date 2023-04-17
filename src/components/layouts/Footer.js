@@ -10,7 +10,7 @@ import { BsTelephone } from 'react-icons/bs';
 const Footer = () => {
   return (
     <>
-      <div className="text-gray-300 border-t wrapper-components mx-auto mt-14 py-10 flex flex-col lg:px-0 lg:flex-row ">
+      <div className="text-gray-300 border-t wrapper-components mx-auto mt-14 py-10 flex flex-col md:flex-row">
         <div className="w-full lg:w-[75%] mr-10">
           <h1 className="font-bold text-lg md:text-xl lg:text-2xl pb-3">
             Pijat Bekam Gurah <span className="text-green-500">Jatinangor</span>
@@ -38,8 +38,8 @@ const Footer = () => {
 
         <div className="flex flex-col gap-3">
           <h1 className="font-bold text-xl lg:text-2xl pb-3">Kontak kami</h1>
-          <div className="flex gap-3">
-            <IoLocationOutline className="w-[90px] h-[90px] pb-9 md:pb-0 md:w-[30px] md:h-[30px] lg:w-[45px] lg:[40px]" />
+          <div className="flex items-center gap-3">
+            <IoLocationOutline className="w-[90px] h-[90px] pb-9 md:pb-5 md:w-[70px] md:h-[50px] lg:pb-3 lg:w-[45px] lg:[40px]" />
             <p>
               RT.03/RW.09, Dusun cahyasari, Cileles, Kec. Jatinangor, Kabupaten
               Sumedang, Jawa Barat 45363

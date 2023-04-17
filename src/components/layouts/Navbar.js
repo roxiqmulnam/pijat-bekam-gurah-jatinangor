@@ -17,7 +17,7 @@ const Navbar = () => {
         </h1>
         <nav className="hidden lg:flex items-center gap-8 text-lg">
           <Link href={'/'}>Beranda</Link>
-          <Link href="/about">Tentang Kami</Link>
+          <Link href="/">Tentang Kami</Link>
           <Link href={'/'}>Menu</Link>
           <Link href={'/'}>Kontak</Link>
         </nav>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <Link href={'/'} className="p-4  border-gray-600">
           Beranda
         </Link>
-        <Link href="/about" className="p-4 border-gray-600">
+        <Link href="/" className="p-4 border-gray-600">
           Tentang Kami
         </Link>
         <Link href={'/'} className="p-4  border-gray-600">

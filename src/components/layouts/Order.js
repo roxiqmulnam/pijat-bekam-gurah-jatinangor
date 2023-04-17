@@ -16,7 +16,7 @@ const Order = () => {
               Hubungi kami melalui telp atau whatsapp.
             </p>
           </div>
-          <AiOutlineDown className='w-[30vh] h-[15vh] mt-5 lg:-rotate-90' />
+          <AiOutlineDown className='w-[20vh] h-[10vh] mt-5 lg:-rotate-90' />
 
           <div className="w-full rounded-lg flex flex-col">
             <h2 className="text-2xl font-bold text-center py-4">
@@ -26,7 +26,7 @@ const Order = () => {
               Tentukan jadwal dan layanan yang anda butuhkan.
             </p>
           </div>
-          <AiOutlineDown className='w-[30vh] h-[15vh] mt-5 lg:-rotate-90' />
+          <AiOutlineDown className='w-[20vh] h-[10vh] mt-5 lg:-rotate-90' />
 
           <div className="w-full rounded-lg flex flex-col">
             <h2 className="text-2xl font-bold text-center py-4">Nikmati</h2>
