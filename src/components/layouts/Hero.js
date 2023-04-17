@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <div className="text-white ">
       <div className="wrapper-components justify-center text-center h-[80vh] mt-16 lg:mt-32">
         <h1 className="font-bold py-8 my-4 text-4xl md:text-5xl lg:text-7xl">
           Pijat, Bekam & Gurah{' '}
@@ -17,7 +17,7 @@ const Hero = () => {
           href="https://wa.me/6285156353140?text=Hello%20saya%20mau%20dipijit?"
           target="_blank"
         >
-          <button className="bg-green-500 text-white rounded-lg font-medium w-[30vh] h-[8vh] my-6 mx-auto lg:text-xl">
+          <button className="bg-green-500 text-white rounded-lg font-medium text-lg w-48 h-12 my-6 mx-auto">
             Hubungi Kami
           </button>
         </Link>

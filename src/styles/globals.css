@@ -9,9 +9,9 @@
 }
 
 body {
-  @apply bg-slate-800;
+  @apply bg-slate-900;
 }
 
 .wrapper-components {
-  @apply mx-auto px-6 md:px-8 lg:max-w-5xl
+  @apply mx-auto px-6 md:px-8 lg:max-w-5xl;
 }

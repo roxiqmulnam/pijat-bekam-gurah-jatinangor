@@ -3,7 +3,7 @@ import {AiOutlineDown} from "react-icons/ai"
 
 const Order = () => {
   return (
-    <div className="w-full my-20 text-white">
+    <div className="w-full bg-slate-900 py-10 text-white">
       <div className="wrapper-components">
         <h1 className="font-extrabold text-4xl text-center">Bagaimana cara order?</h1>
 

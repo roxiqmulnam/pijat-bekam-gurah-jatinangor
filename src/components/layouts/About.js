@@ -2,15 +2,15 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="wrapper-components text-white">
-      <div className="text-center">
-        <p className="text-green-500 font-bold text-lg md:text-xl lg:text-2xl">
+    <div className=" py-28 text-white bg-slate-800">
+      <div id="about" className="wrapper-components">
+        <h1 className="text-green-500 text-center font-bold text-lg md:text-xl lg:text-xl">
           Pijat Tradisional
-        </p>
-        <h1 className="font-bold py-2 text-xl md:text-2xl lg:text-4xl">
+        </h1>
+        <h1 className="font-bold text-center py-2 text-xl md:text-2xl lg:text-4xl">
           Apa yang membuat layanan pijat disini berbeda?
         </h1>
-        <p className="text-slate-400 text-sm md:text-base lg:text-lg">
+        <p className="text-slate-400 text-center text-sm md:text-base lg:text-lg">
           Kami memberikan pelayanan terbaik dengan tukang pijat yang
           profesional. Salah satu layanan pijat terpercaya di Jatinangor.
         </p>
@@ -38,22 +38,21 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      <h1 className='mt-10 text-3xl font-bold'>Layanan Kami</h1>
-      <div className="flex flex-col">
-        <div className="w-full">
-          <p className='text-lg text-justify mt-4 text-slate-400'>
-            Pemijatan atau body massage ini umumnya memakai minyak esensial yang
-            berguna untuk mencegah terjadinya iritasi tubuh. Selain itu, aroma
-            minyaknya juga dapat menenangkan pikiran.
-          </p>
+        <h1 className="mt-10 text-3xl font-bold">Layanan Kami</h1>
+        <div className="flex flex-col">
+          <div className="w-full">
+            <p className="text-lg text-justify mt-4 text-slate-400">
+              Pemijatan atau body massage ini umumnya memakai minyak esensial
+              yang berguna untuk mencegah terjadinya iritasi tubuh. Selain itu,
+              aroma minyaknya juga dapat menenangkan pikiran.
+            </p>
+          </div>
+          <ul className="list-decimal list-inside leading-8 tracking-wide font-bold text-xl my-2">
+            <li>Pijat Tradisional</li>
+            <li>Aneka macam Bekam</li>
+            <li>Gurah</li>
+          </ul>
         </div>
-        <ul className="list-decimal list-inside leading-8 tracking-wide font-bold text-xl my-2">
-          <li>Pijat Tradisional</li>
-          <li>Aneka macam Bekam</li>
-          <li>Gurah</li>
-        </ul>
       </div>
     </div>
   );

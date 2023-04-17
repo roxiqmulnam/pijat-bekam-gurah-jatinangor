@@ -2,9 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 const Services = () => {
   return (
-    <div className="w-full px-4 text-white">
-      <h1>Menu Kami</h1>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+    <div className="w-full py-20 text-white bg-slate-800">
+      <h1 className="text-center font-bold py-8 text-xl md:text-2xl lg:text-4xl ">
+        Menu kami
+      </h1>
+      <div className="wrapper-components grid md:grid-cols-3 gap-8">
         <div className="w-full border-t-4 border-t-green-500 shadow-2xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <h2 className="text-2xl font-bold text-center py-8">PIJAT</h2>
           <p className="text-center text-4xl font-bold">Rp.150.000,-</p>
@@ -16,7 +18,7 @@ const Services = () => {
             target="_blank"
             className="mx-auto"
           >
-            <button className="bg-green-500 text-white rounded-lg font-medium w-[30vh] h-[8vh] my-4 lg:text-xl">
+            <button className="bg-green-500 text-white rounded-lg font-medium text-lg w-48 h-12 my-6 mx-auto">
               Hubungi Kami
             </button>
           </Link>{' '}
@@ -32,7 +34,7 @@ const Services = () => {
             target="_blank"
             className="mx-auto"
           >
-            <button className="bg-green-500 text-white rounded-lg font-medium w-[30vh] h-[8vh] my-4 lg:text-xl">
+            <button className="bg-green-500 text-white rounded-lg font-medium text-lg w-48 h-12 my-6 mx-auto">
               Hubungi Kami
             </button>
           </Link>{' '}
@@ -48,7 +50,7 @@ const Services = () => {
             target="_blank"
             className="mx-auto"
           >
-            <button className="bg-green-500 text-white rounded-lg font-medium w-[30vh] h-[8vh] my-4 lg:text-xl">
+            <button className="bg-green-500 text-white rounded-lg font-medium text-lg w-48 h-12 my-6 mx-auto">
               Hubungi Kami
             </button>
           </Link>{' '}

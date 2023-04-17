@@ -1,65 +1,69 @@
 import React from 'react';
 import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from 'react-icons/fa';
+  IoLocationOutline,
+  IoMailOutline,
+  IoLogoFacebook,
+  IoLogoInstagram,
+} from 'react-icons/io5';
+import { BsTelephone } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
-      <div>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-        <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
-        <div className='flex justify-between md:w-[75%] my-6'>
-            <FaFacebookSquare size={30} />
-            <FaInstagram size={30} />
-            <FaTwitterSquare size={30} />
-            <FaGithubSquare size={30} />
-            <FaDribbbleSquare size={30} />
+    <>
+      <div className="text-gray-300 border-t wrapper-components mx-auto mt-14 py-10 flex flex-col lg:px-0 lg:flex-row ">
+        <div className="w-full lg:w-[75%] mr-10">
+          <h1 className="font-bold text-lg md:text-xl lg:text-2xl pb-3">
+            Pijat Bekam Gurah <span className="text-green-500">Jatinangor</span>
+            .
+          </h1>
+          <p className="text-base">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
+            ullam iste repellat consequatur libero reiciendis, blanditiis
+            accusantium.
+          </p>
+          <div className="flex gap-5 md:w-[75%] my-10">
+            <IoLogoFacebook size={30} />
+            <IoLogoInstagram size={30} />
+          </div>
         </div>
+
+        {/* <div className="flex flex-col lg:flex-row"> */}
+        {/* <iframe
+            title="Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6661.307800076118!2d107.77846454729368!3d-6.910047359569007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dbae9c7fc113%3A0xa0c3405a1ad3416f!2sPIJAT%20BEKAM%20GURAH%20JATINAGOR!5e0!3m2!1sid!2sid!4v1679668847014!5m2!1sid!2sid"
+            allowFullScreen=""
+            loading="lazy"
+            className="mr-5 mb-5 md:h-[250px]"
+          ></iframe> */}
+
+        <div className="flex flex-col gap-3">
+          <h1 className="font-bold text-xl lg:text-2xl pb-3">Kontak kami</h1>
+          <div className="flex gap-3">
+            <IoLocationOutline className="w-[90px] h-[90px] pb-9 md:pb-0 md:w-[30px] md:h-[30px] lg:w-[45px] lg:[40px]" />
+            <p>
+              RT.03/RW.09, Dusun cahyasari, Cileles, Kec. Jatinangor, Kabupaten
+              Sumedang, Jawa Barat 45363
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <IoMailOutline size={30} />
+            <p>contact@gmail.com</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <BsTelephone size={30} />
+            <p>+628123456789</p>
+          </div>
+        </div>
+        {/* </div> */}
       </div>
-      <div className='lg:col-span-2 flex justify-between mt-6'>
-    <div>
-        <h6 className='font-medium text-gray-400'>Solutions</h6>
-        <ul>
-            <li className='py-2 text-sm'>Analytics</li>
-            <li className='py-2 text-sm'>Marketing</li>
-            <li className='py-2 text-sm'>Commerce</li>
-            <li className='py-2 text-sm'>Insights</li>
-        </ul>
-    </div>
-    <div>
-        <h6 className='font-medium text-gray-400'>Support</h6>
-        <ul>
-            <li className='py-2 text-sm'>Pricing</li>
-            <li className='py-2 text-sm'>Documentation</li>
-            <li className='py-2 text-sm'>Guides</li>
-            <li className='py-2 text-sm'>API Status</li>
-        </ul>
-    </div>
-    <div>
-        <h6 className='font-medium text-gray-400'>Company</h6>
-        <ul>
-            <li className='py-2 text-sm'>About</li>
-            <li className='py-2 text-sm'>Blog</li>
-            <li className='py-2 text-sm'>Jobs</li>
-            <li className='py-2 text-sm'>Press</li>
-            <li className='py-2 text-sm'>Careers</li>
-        </ul>
-    </div>
-    <div>
-        <h6 className='font-medium text-gray-400'>Legal</h6>
-        <ul>
-            <li className='py-2 text-sm'>Claim</li>
-            <li className='py-2 text-sm'>Policy</li>
-            <li className='py-2 text-sm'>Terms</li>
-        </ul>
-    </div>
-      </div>
-    </div>
+      <p className="text-center text-white mb-5">
+        Created by{' '}
+        <a href="https://github.com/numanzamaludin" target="_blank">
+          Numan
+        </a>
+        . | &copy; 2023.
+      </p>
+    </>
   );
 };
 
